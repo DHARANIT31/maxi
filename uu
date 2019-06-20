@@ -1,0 +1,6 @@
+str=input()
+l=[]
+for ch in str:
+    if ch not in l:
+        l.append(ch)
+print("Amoung all substrings of length,maximum no of distinct characters=",len(l))
